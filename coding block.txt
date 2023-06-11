@@ -1,0 +1,26 @@
+import java.util.*;
+public class Main {
+    public static void main(String args[]) {
+Scanner sc = new Scanner(System.in);
+int n = sc.nextInt();
+int currNum = 2;
+while(currNum <= n - 1){
+	if(n % currNum == 0){
+		System.out.println("Not Prime");
+		break;
+	}
+	currNum++;
+}
+System.out.println("Prime");
+    }
+}0
+.................................
+Password hacking Vs. cracking.                   
+Explain Contemporary Crimes.
+Explain cybercrime and List the Ten types of IT-ACT activities of cybercrime.
+Explain Digital Forensics and its examples. 
+Explain Threat, Vulnerability, and Risk?      
+Explain Firewalls and its daily uses on operating system.
+What is Brute force attack? Explain with suitable example.                 
+VPN advantages and disadvantages.	
+Differentiate between cyberspace and cyber war with suitable examp
